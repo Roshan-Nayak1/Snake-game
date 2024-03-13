@@ -12,12 +12,16 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #b2b7bb;
+    background-image: url("triangles-1430105_1920.png"); 
+    background-size: cover; 
+    background-position: center;
+    height: 100%;
+    width: 100%;
 }
 
 .wrapper{
-    width: 65vmin;
-    height: 70vmin;
+    width: 75vmin;
+    height: 80vmin;
     display: flex;
     overflow: hidden;
     flex-direction: column;
@@ -25,6 +29,7 @@ body{
     background: #451d70;
     border-radius: 5px;
     box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
+    
 }
 
 .game-details{
